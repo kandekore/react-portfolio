@@ -1,0 +1,59 @@
+ul h3 {
+    display: inline-block;!important;
+  }
+  nav {
+    padding: 30px;
+  }
+  h1.customfont {
+    font-size: 100px;
+    line-height: 120px;
+  }
+  h2.customfont {
+    font-size: 130px;
+  }
+  li h3 {
+    font-size: 40px;
+  }
+  .sidebysidepor {
+    width: 27rem !important;
+  }
+  .copyright {
+    padding-top: -150px;
+  }
+  h1.customfont {
+    font-size: 100px;
+    line-height: 120px;
+  }
+  h2.customfont {
+    font-size: 130px;
+  }
+  li h3 {
+    font-size: 40px;
+  }
+  li {
+    display: inline-block;
+  }
+  li {
+    padding: 30px;
+  }
+  .fa {
+    font-size: 90px !important;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  li {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .mugshot {
+    width: auto;
+  }
+  .sidebyside {
+    width: 80%;
+  }
+  .main-portfolio {
+    width: 80% !important;
+  }
+  .sidebyside {
+    width: 80%;
+  }
