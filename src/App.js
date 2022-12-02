@@ -6,7 +6,7 @@ import AppRoutes from "./Routes";
 // import Home from "./components/Home";
 // import Alert from "./components/Alert";
 // import Display from "./components/Display";
-import List from "./components/List";
+import Header from "./components/Header";
 import Nav from "./components/Nav";
 // import users from "./users";
 // import Greeting from "./components/Greeting";
@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <Router>
-        <Nav />
+        <Header />
         {/* <List users={users} /> */}
         {/* <Display /> */}
         {/*<Home name={name} team={team} /> */}
