@@ -1,4 +1,5 @@
-.nav-item {
-  background: #003366;
-  border-radius: 20px 20px 0px 0px;
+.nav-link.active {
+  color: #f8f9fa;
+  background-color: #084298;
+  border-color: var(--bs-nav-tabs-link-active-border-color);
 }
