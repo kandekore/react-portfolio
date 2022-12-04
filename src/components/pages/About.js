@@ -23,7 +23,7 @@ function HeaderAndFooterExample() {
             <div class="col-md-4">
               <Card.Img
                 style={{ width: "100%" }}
-                src="http://localhost:3000/assets/images/darren10k.JPG"
+                src="/react-portfolio/assets/images/darren10k.JPG"
               />
             </div>
             <div class="col-md-8">
