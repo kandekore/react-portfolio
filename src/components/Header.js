@@ -1,11 +1,7 @@
-import React, { useState } from "react";
-import { useLocation, Routes, Route } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 import Nav from "./Nav";
 import Row from "react-bootstrap/Row";
-// import About from "./pages/About";
-// import Portfolio from "./pages/Portfolio";
-// import Contact from "./pages/Contact";
 
 function Navbar() {
   let location = useLocation();
@@ -14,7 +10,9 @@ function Navbar() {
     return (
       <>
         <h1 className="headermain">Darrens' Profile</h1>
-        <p className="headersub">Full Stack Developer & WordPress Expert</p>
+        <p className="headersub">
+          Full Stack Developer, Hosting Administrator & SEM Consultant
+        </p>
       </>
     );
   } else if (location.pathname === "/portfolio") {

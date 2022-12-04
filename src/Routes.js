@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Resume from "./components/pages/Resume";
-
 import Portfolio from "./components/pages/Portfolio";
 
 const AppRoutes = () => {

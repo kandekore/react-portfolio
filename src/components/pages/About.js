@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
@@ -28,8 +27,6 @@ function HeaderAndFooterExample() {
             </div>
             <div class="col-md-8">
               <Card.Body style={{ background: "#f7f7f7" }}>
-                {/* <Card.Title>Darren Kandekore</Card.Title> */}
-
                 <Tabs
                   style={{ marginBottom: "0px" }}
                   defaultActiveKey="profile"
@@ -61,6 +58,11 @@ function HeaderAndFooterExample() {
                       including Exchange & Microsoft 365.
                     </p>
                     <p style={{ textAlign: "justify" }}>
+                      I have completed the 'University of Birmingham Coding
+                      Bootcamp' to enhance my skills and build on my working
+                      experience.
+                    </p>
+                    <p style={{ textAlign: "justify" }}>
                       A keen runner, I recently raised £900 for Acorns Childrens
                       Hospice by taking part in the Great Birmingham Run, I am
                       an Aston Villa season ticket holder and enjoy listening to
@@ -69,33 +71,42 @@ function HeaderAndFooterExample() {
                   </Tab>
                   <Tab eventKey="experience" title="Experience">
                     <div class="row g-0">
-                      {" "}
                       <div class="col-md-6">
-                        {" "}
                         <ListGroup>
-                          <ListGroup.Item>WordPress (advanced)</ListGroup.Item>
-                          <ListGroup.Item>HTML</ListGroup.Item>
-                          <ListGroup.Item>CSS</ListGroup.Item>
+                          <ListGroup.Item>JavaScript</ListGroup.Item>
+                          <ListGroup.Item>React</ListGroup.Item>
+                          <ListGroup.Item>HTML & CSS</ListGroup.Item>
                           <ListGroup.Item>
-                            Hosting Management WHM & cPanel
+                            Web, Third Party & Server-Side APIs
                           </ListGroup.Item>
-                          {/* <ul><li>SSL Installation</ListGroup.Item> */}
-                          <ListGroup.Item>DNS Administration</ListGroup.Item>
-                          <ListGroup.Item>Email Administration</ListGroup.Item>
-                          <ListGroup.Item>FTP</ListGroup.Item>
+                          <ListGroup.Item>Node.js</ListGroup.Item>
                           <ListGroup.Item>
-                            Domain Name Registration & Management
+                            Object-Oriented Programming(OOP)
+                          </ListGroup.Item>
+                          <ListGroup.Item>Express.js</ListGroup.Item>
+
+                          <ListGroup.Item>
+                            SQL, MongoDB & GraphQL
                           </ListGroup.Item>
                           <ListGroup.Item>
-                            Hosted Exchange Management
+                            Object-Relational Mapping (ORM)
+                          </ListGroup.Item>
+
+                          <ListGroup.Item>
+                            Model-View-Controller (MVC)
                           </ListGroup.Item>
                         </ListGroup>
                       </div>
                       <div class="col-md-6">
-                        {" "}
                         <ListGroup>
                           <ListGroup.Item>
-                            Microsoft 365 Administration and Support
+                            Hosting Management WHM & cPanel
+                          </ListGroup.Item>
+                          <ListGroup.Item>
+                            DNS Administration & Domain Management
+                          </ListGroup.Item>
+                          <ListGroup.Item>
+                            Microsoft Exchange Administration and Support
                           </ListGroup.Item>
                           <ListGroup.Item>Adobe Photoshop</ListGroup.Item>
                           <ListGroup.Item>
@@ -105,12 +116,10 @@ function HeaderAndFooterExample() {
                             Google Analytics & Webmaster Tools
                           </ListGroup.Item>
                           <ListGroup.Item>
-                            Google AdWords (AdWords certified)
+                            Google AdWords & Bing Ads (AdWords certified)
                           </ListGroup.Item>
-                          <ListGroup.Item>Bing Ads</ListGroup.Item>
-                          {/* I have some experience with the following
-  PHP */}
-                          <ListGroup.Item>SQL </ListGroup.Item>
+
+                          <ListGroup.Item>WordPress </ListGroup.Item>
                           <ListGroup.Item>Joomla </ListGroup.Item>
                           <ListGroup.Item>Magento </ListGroup.Item>
                         </ListGroup>
