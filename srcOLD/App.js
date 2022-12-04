@@ -1,7 +1,0 @@
-import OmdbContainer from "./components/OmdbContainer";
-import PortfolioContainer from "./components/PortfolioContainer";
-
-// const App = () => <PortfolioContainer />;
-export default function App() {
-  return <PortfolioContainer />;
-}
