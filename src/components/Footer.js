@@ -14,7 +14,6 @@ function Footer() {
           </div>
         </Col>
         <Col sm>
-          {/* <img className="icons" src="/assets/images/Linkedin.png" /> */}
           <div className="footercol">
             <a href="https://www.linkedin.com/in/dkandekore/">
               <i className="fa fa-linkedin" aria-hidden="true"></i>
