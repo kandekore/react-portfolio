@@ -4,7 +4,7 @@ const projects = [
       title: "Model-View-Controller Tech Blog",
       description:
         "A blog similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts",
-      image: "/assets/images/blog.jpg",
+      image: "/react-portfolio/assets/images/blog.jpg",
     },
     tech: [
       "JavaScript, ",
@@ -29,7 +29,7 @@ const projects = [
       title: "Weather App",
       description:
         "A weather app that will run in the browser and feature dynamically updated HTML and CSS, with a 5 day forecast.",
-      image: "/assets/images/weather.jpg",
+      image: "/react-portfolio/assets/images/weather.jpg",
     },
     tech: ["HTML, ", "CSS, ", "Bootstrap, ", "Open Weather Map API, "],
     links: {
@@ -42,7 +42,7 @@ const projects = [
       title: "SQL Employee Tracker",
       description:
         "A command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
-      image: "/assets/images/emptrk.jpg",
+      image: "/react-portfolio/assets/images/emptrk.jpg",
     },
     tech: [
       "JavaScript, ",
@@ -62,7 +62,7 @@ const projects = [
       title: "Web API Code Quiz",
       description:
         "A car rental application that allows the user to book a rental car for a period of time and from a specific location.",
-      image: "/assets/images/quiz.jpg",
+      image: "/react-portfolio/assets/images/quiz.jpg",
     },
     tech: ["JavaScript, ", "CSS, ", "HTML5, ", "Local Storage "],
     links: {
@@ -75,7 +75,7 @@ const projects = [
       title: "Team Project 1 (ZenFoci Lifestyle App)",
       description:
         "An app, that can manage meals, groceries, goals and healthy habits that you wish to schedule.",
-      image: "/assets/images/zenfociss.jpg",
+      image: "/react-portfolio/assets/images/zenfociss.jpg",
     },
     tech: [
       "JavaScript, ",
@@ -100,7 +100,7 @@ const projects = [
       title: "Team Project 2 (SCA Car Rental)",
       description:
         "A car rental application that allows the user to book a rental car for a period of time and from a specific location.",
-      image: "/assets/images/carhire.jpg",
+      image: "/react-portfolio/assets/images/carhire.jpg",
     },
     tech: [
       "JavaScript, ",
