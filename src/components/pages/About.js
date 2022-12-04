@@ -9,7 +9,7 @@ import Row from "react-bootstrap/Row";
 
 function HeaderAndFooterExample() {
   return (
-    <Container>
+    <Container className="mainbody">
       <Row>
         <Card
           style={{

@@ -1,6 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Routes } from "react-router-dom";
 import AppRoutes from "./Routes";
+import Footer from "./components/Footer";
 
 // import HelloReact from "./components/HelloReact";
 // import Home from "./components/Home";
@@ -18,8 +19,20 @@ import Nav from "./components/Nav";
 // const App = () => <PortfolioContainer />;
 
 // We create a couple variables which contain strings
-const message = "Invalid user id or password";
-const alertType = "success";
+const projects = [
+  {
+    head: {
+      title: "project 1",
+      description: "a great project",
+      image: "/assets/images/scar.jpg",
+    },
+    tech: ["1tech", "w=2tech"],
+    links: {
+      github: "git.com",
+      deployed: "http://#",
+    },
+  },
+];
 
 // import "./";
 
@@ -44,6 +57,7 @@ function App() {
         {/* <Thermostat /> */}
         {/* <PortfolioContainer /> */}
         <AppRoutes />
+        <Footer />
       </Router>
     </>
   );

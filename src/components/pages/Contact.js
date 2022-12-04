@@ -1,29 +1,58 @@
-import React from "react";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
+import React, { useState } from "react";
+import Container from "react-bootstrap/Container";
 
 function FormExample() {
+  const [name, setName] = useState("");
+  const [emailAddress, setEmailAddress] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+
+    return name === "name" ? setName(value) : setName(value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert(`Thank you ${name}, I will be in touch soon`);
+    setName("");
+    setEmailAddress("");
+    setMessage("");
+  };
+
   return (
-    <Form>
-      <fieldset>
-        <Form.Group className="mb-3">
-          <Form.Label htmlFor="textInput">Name</Form.Label>
-          <Form.Control id="textInput" placeholder=" input" />
-        </Form.Group>
-        <Form.Group className="mb-3">
-          <Form.Label htmlFor="textInput"> Email address</Form.Label>
-          <Form.Control type="email" placeholder=" Email" />
-        </Form.Group>
-        <Form.Group className="mb-3">
-          <Form.Check
-            type="checkbox"
-            id="fieldsetCheck"
-            label="Can't check this"
+    <Container className="mainbody">
+      {" "}
+      <p className="headersub">Hi {name}, I can't wait to hear from you!</p>
+      <div>
+        <form className="form" onSubmit={handleSubmit}>
+          <input
+            name="firstName"
+            type="text"
+            value={name}
+            placeholder="Name"
+            onChange={(e) => setName(e.target.value)}
           />
-        </Form.Group>
-        <Button type="submit">Submit</Button>
-      </fieldset>
-    </Form>
+
+          <input
+            name="emailaddress"
+            type="email"
+            value={emailAddress}
+            placeholder="Email Address"
+            onChange={(e) => setEmailAddress(e.target.value)}
+          />
+
+          <textarea
+            type="message"
+            placeholder="Message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+          />
+
+          <input type="submit" />
+        </form>
+      </div>
+    </Container>
   );
 }
 
