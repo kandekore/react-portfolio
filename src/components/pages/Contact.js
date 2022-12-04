@@ -7,17 +7,29 @@ function FormExample() {
   const [message, setMessage] = useState("");
 
   const handleInputChange = (e) => {
-    const { name, value } = e.target;
-
-    return name === "name" ? setName(value) : setName(value);
+    // const { name, value } = e.target;
+    // return name === "name" ? setName(value) : setName(value);
+    if (this.trim().length !== 0) {
+      console.log("input value is NOT empty");
+    } else {
+      alert("hic input value is empty");
+    }
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(`Thank you ${name}, I will be in touch soon`);
-    setName("");
-    setEmailAddress("");
-    setMessage("");
+    if (
+      message.trim().length !== 0 &&
+      name.trim().length !== 0 &&
+      emailAddress.trim().length !== 0
+    ) {
+      alert(`Thank you ${name}, I will be in touch soon`);
+      setName("");
+      setEmailAddress("");
+      setMessage("");
+    } else {
+      alert("All fields are required");
+    }
   };
 
   return (
@@ -31,7 +43,7 @@ function FormExample() {
             type="text"
             value={name}
             placeholder="Name"
-            onChange={(e) => setName(e.target.value)}
+            onChange={(e) => setName(e.target.value, { handleInputChange })}
           />
 
           <input
@@ -39,14 +51,16 @@ function FormExample() {
             type="email"
             value={emailAddress}
             placeholder="Email Address"
-            onChange={(e) => setEmailAddress(e.target.value)}
+            onChange={(e) =>
+              setEmailAddress(e.target.value, { handleInputChange })
+            }
           />
 
           <textarea
             type="message"
             placeholder="Message"
             value={message}
-            onChange={(e) => setMessage(e.target.value)}
+            onChange={(e) => setMessage(e.target.value, { handleInputChange })}
           />
 
           <input type="submit" />
