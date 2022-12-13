@@ -120,6 +120,29 @@ const projects = [
       deployed: "https://carhire-porj2.herokuapp.com/",
     },
   },
+  {
+    head: {
+      title: "Interactive MERN Stack Single-Page Application",
+      description:
+        "An ecommerce application, with a filter and a cart function",
+      image: "/react-portfolio/assets/images/btech.jpg",
+    },
+    tech: [
+      "JavaScript, ",
+      "React, ",
+      "MongoDB, ",
+      "Express, ",
+      "GraphQL, ",
+      "CSS, ",
+      "Bootstrap, ",
+      "HTML5, ",
+      "NodeJS, ",
+    ],
+    links: {
+      github: "https://github.com/nafisa-am/btech/tree/main",
+      deployed: "https://limitless-taiga-85825.herokuapp.com",
+    },
+  },
 ];
 
 export default projects;
