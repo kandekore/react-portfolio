@@ -125,7 +125,7 @@ const projects = [
       title: "Interactive MERN Stack Single-Page Application",
       description:
         "An ecommerce application, with a filter and a cart function",
-      image: "/react-portfolio/assets/images/btech.jpg",
+      image: "/react-portfolio/assets/images/btech-final.jpg",
     },
     tech: [
       "JavaScript, ",
