@@ -4,7 +4,7 @@ const projects = [
       title: "Model-View-Controller Tech Blog",
       description:
         "A blog similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts",
-      image: "/react-portfolio/assets/images/blog.jpg",
+      image: "/assets/images/blog.jpg",
     },
     tech: [
       "JavaScript, ",
@@ -29,7 +29,7 @@ const projects = [
       title: "Weather App",
       description:
         "A weather app that will run in the browser and feature dynamically updated HTML and CSS, with a 5 day forecast.",
-      image: "/react-portfolio/assets/images/weather.jpg",
+      image: "/assets/images/weather.jpg",
     },
     tech: ["HTML, ", "CSS, ", "Bootstrap, ", "Open Weather Map API, "],
     links: {
@@ -42,7 +42,7 @@ const projects = [
       title: "SQL Employee Tracker",
       description:
         "A command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
-      image: "/react-portfolio/assets/images/emptrk.jpg",
+      image: "/assets/images/emptrk.jpg",
     },
     tech: [
       "JavaScript, ",
@@ -62,7 +62,7 @@ const projects = [
       title: "Web API Code Quiz",
       description:
         "A car rental application that allows the user to book a rental car for a period of time and from a specific location.",
-      image: "/react-portfolio/assets/images/quiz.jpg",
+      image: "/assets/images/quiz.jpg",
     },
     tech: ["JavaScript, ", "CSS, ", "HTML5, ", "Local Storage "],
     links: {
@@ -75,7 +75,7 @@ const projects = [
       title: "Team Project 1 (ZenFoci Lifestyle App)",
       description:
         "An app, that can manage meals, groceries, goals and healthy habits that you wish to schedule.",
-      image: "/react-portfolio/assets/images/zenfociss.jpg",
+      image: "/assets/images/zenfociss.jpg",
     },
     tech: [
       "JavaScript, ",
@@ -100,7 +100,7 @@ const projects = [
       title: "Team Project 2 (SCA Car Rental)",
       description:
         "A car rental application that allows the user to book a rental car for a period of time and from a specific location.",
-      image: "/react-portfolio/assets/images/carhire.jpg",
+      image: "/assets/images/carhire.jpg",
     },
     tech: [
       "JavaScript, ",
@@ -122,25 +122,49 @@ const projects = [
   },
   {
     head: {
-      title: "Interactive MERN Stack Single-Page Application",
+      title: "Tony James Designs",
       description:
-        "An ecommerce application, with a filter and a cart function",
-      image: "/react-portfolio/assets/images/btech.jpg",
+        "A customised E-commerce website that sells variations of motorcycle protective film, with a stripe and PayPal payment option with complex international shipping options. The site ranks on google, and I run a Google Ads campaign to increase sales.",
+      image: "/assets/images/Tony-james.jpg",
     },
     tech: [
-      "JavaScript, ",
-      "React, ",
-      "MongoDB, ",
-      "Express, ",
-      "GraphQL, ",
+      "WordPress, ",
+      "Revolution Slider, ",
+      "MySQL, ",
+      "Stripe, ",
+      "Font Awesome, ",
+      "Gravity Forms, ",
       "CSS, ",
-      "Bootstrap, ",
       "HTML5, ",
-      "NodeJS, ",
+      "WP Rocket, ",
+      "Google Analytics, ",
     ],
     links: {
-      github: "https://github.com/nafisa-am/btech/tree/main",
-      deployed: "https://limitless-taiga-85825.herokuapp.com",
+      deployed: "https://tonyjamesdesigns.com/",
+    },
+  },
+  {
+    head: {
+      title: "VG Charles & Co",
+      description:
+        "A corporate legal recruitment website with a job search facility and a bespoke design",
+      image:
+        "https://kandekore.net/wp-content/uploads/2021/12/VG-Charles-Portfolio.png",
+    },
+    tech: [
+      "WordPress, ",
+      "Revolution Slider, ",
+      "MySQL, ",
+      "Stripe, ",
+      "Font Awesome, ",
+      "WP Bakery, ",
+      "CSS, ",
+      "HTML5, ",
+      "reCAPTCHA, ",
+      "CDN, ",
+    ],
+    links: {
+      deployed: "https://vgcharles.com/",
     },
   },
 ];
